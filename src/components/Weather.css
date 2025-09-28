@@ -1,0 +1,85 @@
+body{
+    background-image: url("https://media.gettyimages.com/id/962500712/video/4k-tl-cloudy-sky-with-sun-rays.jpg?s=640x640&k=20&c=XQrz-Y4FIzovVlayePLhPZpHoM8-iLN7gZ_uSdnoe-8=");
+    background-size: cover;;
+}
+
+.weather{
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #3a6186, #89253e);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 18px;
+}
+
+.search-bar img{
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.weather-icon{
+    width: 150px;
+    margin: 20px 0px;
+}
+.temp{
+    font-size: 70px;
+    color: white;
+    margin: 30px 0px;
+    line-height: 3px;
+}
+
+.location{
+    font-size: 30px;
+    color: white;
+    margin: 10px 0px;
+}
+
+.weather-data{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.weather-data .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.weather-data .col span{
+    margin-top: 10px;
+    display: block;
+    font-size: 16px;
+}
+
+.weather-data .col img{
+    width: 40px;
+    margin-top: 10px;
+}
+
+.space{
+    margin: 10px 5px;
+}
